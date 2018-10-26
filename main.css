@@ -8,3 +8,25 @@ body {
     margin: 0;
     background: url('assets/freedom.jpg') no-repeat center/cover;
 }
+
+.wrapper {
+    display: block;
+    width: 90%;
+    text-align:  center;
+    color: #333;
+    margin: 0 auto;
+    padding-top: 6.5rem;
+}
+
+.main-text {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+}
+
+.author {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    padding-top: 3rem;
+}
