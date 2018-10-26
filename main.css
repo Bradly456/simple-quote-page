@@ -12,6 +12,7 @@ body {
 .wrapper {
     display: block;
     width: 90%;
+    height: 90%;
     text-align:  center;
     color: #333;
     margin: 0 auto;
@@ -24,9 +25,67 @@ body {
     line-height: 3.8rem;
 }
 
+
 .author {
     font-family: 'Crimson Text', serif;
     font-style: italic;
     font-size: 1.3rem;
     padding-top: 3rem;
+}
+
+/*==Footer style ==*/
+
+footer {
+  background-color: rgba(0,0,0,.5);
+  display: table;
+  width: 100vw;
+  padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.ikon-hu {
+    background: url("assets/hu.svg");
+}
+
+/*==Mobil style ==*/
+
+@media (max-width: 768px) {
+    
+    .wrapper {
+        padding-top: 6rem;
+    }
+
+    .main-text {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    } 
+    
+    .author {
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
 }
